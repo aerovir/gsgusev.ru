@@ -122,6 +122,7 @@ export default {
       this.$route.params.city = 'gsv'
       this.$route.params.cityName = 'gusev'
       this.saveDefaultCity('gusev')
+      this.showCity = document.getElementById('city-name').innerText = 'Гусев'
     },
     showKaliningradItems: function () {
       document.getElementById('kgd-btn').classList.add('active')
@@ -139,6 +140,7 @@ export default {
       this.$route.params.city = 'kgd'
       this.$route.params.cityName = 'kaliningrad'
       this.saveDefaultCity('kaliningrad')
+      document.getElementById('city-name').innerText = 'Калининград'
     },
 
     saveDefaultCity: function (city) {

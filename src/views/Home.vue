@@ -5,7 +5,7 @@
     <!-- Breadcrumb -->
     <section class="gs-container gs-container_center">
       <ol class="gs-breadcrumb">
-        <li class="gs-breadcrumb__list-item gs-breadcrumb__list-item_active"> GS Гусев </li>
+        <li id="city-name" class="gs-breadcrumb__list-item gs-breadcrumb__list-item_active"> </li>
       </ol>
     </section>
 
